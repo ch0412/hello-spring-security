@@ -93,5 +93,9 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<footer style="text-align: center; margin-top: 15px;">
+    <p th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2271112 | 성명: 박초은'}"></p>
+</footer>
 </body>
 </html>
